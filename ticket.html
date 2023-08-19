@@ -1,0 +1,35 @@
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BookIT</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>BookIT</h1>
+    <form id="booking">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" required><br><br>
+        
+        <label for="mviName">Movie Name:</label>
+        <input type="text" id="mviName" name="mviName" required><br><br>
+        
+        <label for="mviDate">Movie Date:</label>
+        <input type="date" id="mviDate" name="mviDate" required><br><br>
+        
+        <label for="seats">Number of Seats:</label>
+        <input type="number" id="seats" name="seats" min="1" required><br><br>
+        
+        <label for="class">Class:</label>
+        <select id="class" name="class" required>
+            <option value="premium">Premium</option>
+            <option value="luxury">Luxury</option>
+            <option value="sofa">Sofa</option>
+        </select><br><br>
+        
+        <button id="submitBtn" type="button">Submit</button>
+    </form>
+
+    <script src="process.js"></script>
+</body>
+</html>
